@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  background-image: linear-gradient(to right, red, green, yellow);
+  text-decoration: underline;
+}
+
+.nav {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  background: lightblue;
+  border: solid red 5px;
+  border-radius: 15px;
+}
+
+.nav > ul {
+  width: 30%;
+  margin: auto;
+}
+
+.upper-mid-section {
+  display: flex;
+  margin: 10px 0;
+  background: lightgreen;
+  border: solid red 2px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.upper-mid-section-box {
+  width: 30%;
+  text-align: center;
+  font-weight: 600;
+  background: turquoise;
+  border: solid green 2px;
+  border-radius: 15px;
+}
+
+.lower-mid-section-headline {
+  text-align: center;
+  background-image: linear-gradient(to right, red, yellow, red);
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+
+.lower-mid-section {
+  display: flex;
+  justify-content: space-around;
+  background-image: radial-gradient(blue, turquoise);
+  padding: 40px 0;
+  margin: 15px 0 25px 0;
+}
+
+.lower-mid-section-box {
+  background: yellow;
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  border: solid red 3px;
+  border-radius: 15px;
+  padding: 0 5px;
+  margin: 0 3%;
+  width: 20%;
+}
+
+.lower-mid-section-box > p {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.block6 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr) 1fr;
+  grid-template-rows: 30px 80px 140px 30px;
+  grid-auto-rows: minmax(30px, auto);
+  grid-gap: 1em;
+}
+
+.child1 {
+  color: white;
+  background-color: red;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 18px;
+}
+
+.child2 {
+  color: white;
+  background-color: green;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  text-align: center;
+  font-size: 22px;
+}
+
+.child3 {
+  color: white;
+  background-color: rgb(156, 27, 231);
+  grid-row: 2/3;
+  grid-column: 2/3;
+  text-align: left;
+  font-size: 26px;
+}
+
+.child4 {
+  color: white;
+  background-color: rgb(51, 35, 197);
+  grid-row: 2/3;
+  grid-column: 3/4;
+  font-size: 22px;
+}
+
+.child5 {
+  color: white;
+  background-color: black;
+  grid-row: 2/4;
+  grid-column: 4/5;
+}
+
+.child6 {
+  color: whitesmoke;
+  background-color: goldenrod;
+  grid-row: 3/4;
+  grid-column: 1/4;
+  font-size: 18px;
+}
+
+.child7 {
+  color: white;
+  background-color: aqua;
+  grid-row: 4/5;
+  grid-column: 1/5;
+  text-align: center;
+  font-size: 22px;
+}
